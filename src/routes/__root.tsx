@@ -70,6 +70,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           content:
             "Batch USDC payment operations on Arc. Upload, preview, execute.",
         },
+        { name: "twitter:title", content: "Ordo — Batch USDC payments on Arc" },
+        { name: "description", content: "Ordo is a web application for executing bulk USDC payments on the Arc Network." },
+        { property: "og:description", content: "Ordo is a web application for executing bulk USDC payments on the Arc Network." },
+        { name: "twitter:description", content: "Ordo is a web application for executing bulk USDC payments on the Arc Network." },
+        { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/826997d7-2f5f-434f-9aad-94a07c283445/id-preview-282973ec--87666e0a-f55a-4d35-81c6-7dbb435bb584.lovable.app-1779180690463.png" },
+        { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/826997d7-2f5f-434f-9aad-94a07c283445/id-preview-282973ec--87666e0a-f55a-4d35-81c6-7dbb435bb584.lovable.app-1779180690463.png" },
+        { name: "twitter:card", content: "summary_large_image" },
+        { property: "og:type", content: "website" },
       ],
       links: [
         { rel: "stylesheet", href: appCss },
